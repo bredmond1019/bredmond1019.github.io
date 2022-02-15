@@ -8,7 +8,7 @@ module.exports = {
   mode: "development",
   entry: __dirname + "/src/index.js",
   output: {
-    path: __dirname + "/dist",
+    path: __dirname + "/blog",
     filename: "[name].js",
     clean: true,
     publicPath: "",
