@@ -20,13 +20,13 @@ const Navigation = (props) => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Navbar.Brand as={Link} to="/"></Navbar.Brand>
-
-              <Nav className="justify-content-end" activeKey={location}>
-                <Nav.Link as={NavHashLink} to="/#landing-wrapper">
+              {/* activeKey={location} */}
+              <Nav className="justify-content-end">
+                <Nav.Link as={NavHashLink} to="/#home">
                   Home
                 </Nav.Link>
 
-                <Nav.Link as={NavHashLink} to="/about#about-wrapper">
+                <Nav.Link as={NavHashLink} to="/#about">
                   About
                 </Nav.Link>
 

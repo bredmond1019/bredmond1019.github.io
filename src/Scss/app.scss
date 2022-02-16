@@ -1,15 +1,7 @@
-@use "landing";
 @use "navbar";
-@use "contact_info";
-@use "about";
-@use "timeline";
-@use "tech_stack";
+@use "./LandingPage/landing";
+@use "./LandingPage/contact_info";
+@use "./LandingPage/about";
+@use "./LandingPage/timeline";
+@use "./LandingPage/tech_stack";
 @use "blog_page";
-
-// font-family: 'Amatic SC', cursive;
-
-// font-family: 'Cuprum', sans-serif;
-
-// font-family: 'Fira Mono', monospace;
-
-// font-family: 'Viga', sans-serif;

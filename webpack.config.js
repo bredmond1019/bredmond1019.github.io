@@ -63,6 +63,8 @@ module.exports = {
     // }),
   ],
 
+  cache: true,
+
   devtool: "source-map",
   devServer: {
     historyApiFallback: true,

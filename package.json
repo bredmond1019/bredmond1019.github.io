@@ -1,5 +1,5 @@
 {
-  "homepage" : "http://bredmond1019.github.io",
+  "homepage": "http://bredmond1019.github.io",
   "name": "webpack-app",
   "version": "1.0.0",
   "description": "",
@@ -9,8 +9,8 @@
     "build": "webpack --config webpack.config.js",
     "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pre-deploy" : "npm run build",
-    "deploy" : "gh-pages -d blog"
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d blog"
   },
   "keywords": [],
   "author": "",

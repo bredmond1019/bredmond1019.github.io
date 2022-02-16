@@ -1,0 +1,41 @@
+@use "../variables" as var;
+
+.landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(var.$blue-rgba, var.$blue-rgba), url(var.$geo-bkg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: var.$architect;
+  color: #fff;
+}
+
+.landing-title {
+  font-weight: bold;
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  text-shadow: var.$black-shadow;
+}
+
+.landing-subtitle-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-subtitle {
+  color: #eee;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  // white-space: nowrap;
+}
