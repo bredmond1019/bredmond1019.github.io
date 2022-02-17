@@ -1,13 +1,20 @@
+@use "./variables" as var;
+
 #navbar-container {
-  background-color: #0d6efd;
+  background-color: var.$blue;
   letter-spacing: 3px;
-  font-family: "Architects Daughter", cursive;
+  font-family: var.$architect;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .nav-link {
   color: #fff !important;
+}
+
+.nav-link:hover {
+  box-shadow: 0 0 11px 3px var.$gold;
+  border-radius: 15%;
 }
 
 // .nav-link.active {
@@ -20,7 +27,7 @@
 
 .navbar-toggler {
   // color: #00c853 !important;
-  background-color: #00c853 !important;
+  background-color: var.$green !important;
 }
 
 // .navbar-collapse.show {
