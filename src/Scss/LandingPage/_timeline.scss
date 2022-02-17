@@ -10,7 +10,13 @@
   border-bottom: 1px solid var.$blue;
   background-color: black;
   font-family: var.$cuprum;
+
+  position: relative;
 }
+
+//
+// HEADER FOR TIMELINE
+//
 
 .timeline-header {
   padding-bottom: 40px;
@@ -26,14 +32,30 @@
   display: none;
 }
 
+//
+// TIMELINE CONTAINER
+//
+
 .timeline-items-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
-
-  // position: relative;
 }
+
+.timeline-items-wrapper::before {
+  left: calc(50% - 1px);
+  content: "";
+  position: absolute;
+  top: 270px;
+  bottom: 100px;
+  width: 2px;
+  background-color: var.$blue;
+}
+
+//
+// TIMELINE ITEMS CONTAINER
+//
 
 .timeline-item-wrapper {
   display: flex;
@@ -49,9 +71,11 @@
 
   border-radius: 10%;
 }
+
+// IMAGE
+//
 .timeline-image-container {
   height: 120px;
-  // height: 75px;
   margin-left: 15px;
 }
 
@@ -72,6 +96,10 @@
   object-position: center center;
 }
 
+//
+// TIMELINE ITEM TEXT
+//
+
 .tile {
   width: 55vw;
 }
@@ -79,6 +107,10 @@
 .tile-body {
   padding: 0 15px;
 }
+
+//
+// BACKGROUND COLOR
+//
 
 .timeline-item-wrapper:nth-child(1) {
   background-color: rgb(36, 165, 220);
@@ -116,6 +148,8 @@
 }
 
 // LARGE SCREEN
+// BREAKPOINT 700px
+//
 
 @media screen and (min-width: 700px) {
   // ODD
@@ -182,19 +216,69 @@
     }
   }
 
+  //
+  // BREAKPOINT 900px
+  //
+
   @media screen and (min-width: 900px) {
     .timeline-item-wrapper {
       margin-bottom: 5vh;
     }
+
+    .timeline-items-wrapper::before {
+      bottom: 150px;
+    }
   }
 
+  //
+  // BREAKPOINT 1050px
+  //
   @media screen and (min-width: 1050px) {
+    .timeline-items-wrapper {
+      max-width: 1050px;
+    }
+
+    .timeline-item-wrapper:nth-child(odd) {
+      margin-left: -24%;
+
+      .timeline-image-container {
+        height: 120px;
+        transform: translateX(405%);
+      }
+    }
+    .timeline-item-wrapper:nth-child(even) {
+      // margin-right: -38%;
+      margin-left: 60%;
+
+      .timeline-image-container {
+        transform: translateX(-385%);
+      }
+    }
+
+    .timeline-items-wrapper::before {
+      bottom: 200px;
+    }
+
     .timeline-item-wrapper.tile-title {
       font-size: 3rem;
     }
 
     .tile-detail {
       font-size: 1.25rem;
+    }
+
+    .final-image-wrapper {
+      display: block;
+      z-index: 4;
+
+      .image-container {
+        border-radius: 50%;
+      }
+
+      .timeline-image {
+        border-radius: 50%;
+        height: 120px;
+      }
     }
   }
 
