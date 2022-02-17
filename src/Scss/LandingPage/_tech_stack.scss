@@ -13,8 +13,9 @@
   padding: 5vh 5vw;
 
   // font-family: var.$architect;
-  font-family: var.$amantic;
-  letter-spacing: 4px;
+
+  font-family: var.$cuprum;
+  // letter-spacing: 4px;
 }
 
 .tech-stack-title {
@@ -46,9 +47,12 @@
 .icon-title {
   opacity: 0.8;
   margin-bottom: 10px;
+
+  font-family: var.$amantic;
   font-size: 2.5rem;
   text-transform: uppercase;
   text-shadow: var.$black-shadow;
+  letter-spacing: 4px;
 }
 
 .icon-img-container {
