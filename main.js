@@ -38,9 +38,6 @@ function App() {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
         path: "/blog",
         element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Blog__WEBPACK_IMPORTED_MODULE_2__.default, {})
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
-        path: "/projects",
-        element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Projects__WEBPACK_IMPORTED_MODULE_3__.default, {})
       })]
     })]
   });
@@ -81,17 +78,17 @@ function Blog() {
   }, {
     title: "Flask API Basics",
     image: _images_blog_page_blue_green_jpeg__WEBPACK_IMPORTED_MODULE_1__,
-    link: "#",
+    link: "",
     description: "React, GraphQL, Flask App -- Part 1"
   }, {
     title: "Flask Application Factory",
     image: _images_blog_page_purple_triangle_jpeg__WEBPACK_IMPORTED_MODULE_3__,
-    link: "#",
+    link: "",
     description: "React, GraphQL, Flask App -- Part 2"
   }, {
     title: "Flask & GraphQL",
     image: _images_blog_page_mountain3_jpeg__WEBPACK_IMPORTED_MODULE_2__,
-    link: "#",
+    link: "",
     description: "React, GraphQL, Flask App -- Part 3"
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
@@ -198,7 +195,7 @@ function About() {
           className: "about-info-text-list",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
             className: "about-info-text info-list-item",
-            children: "problem solving"
+            children: "problem solver"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
             className: "about-info-text info-list-item",
             children: "time management"
@@ -331,7 +328,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./About */ "./src/components/LandingPage/About.jsx");
 /* harmony import */ var _Timeline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Timeline */ "./src/components/LandingPage/Timeline.jsx");
 /* harmony import */ var _TechStack__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TechStack */ "./src/components/LandingPage/TechStack.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Portfolio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Portfolio */ "./src/components/Portfolio.jsx");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -340,34 +339,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Landing() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
       id: "home",
       className: "landing-wrapper",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
         className: "landing-page",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h1", {
           className: "landing-title",
           children: "Brandon Redmond"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
           className: "landing-subtitle-wrapper",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
             className: "landing-subtitle ",
             children: "Software Developer."
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
             className: "landing-subtitle ",
             children: "Language Enthusiast."
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
             className: "landing-subtitle ",
             children: "Dog Lover."
           })]
         })]
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
       id: "about",
       className: "about-wrapper",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_About__WEBPACK_IMPORTED_MODULE_2__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_TechStack__WEBPACK_IMPORTED_MODULE_4__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Timeline__WEBPACK_IMPORTED_MODULE_3__.default, {})]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})]
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_TechStack__WEBPACK_IMPORTED_MODULE_4__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Portfolio__WEBPACK_IMPORTED_MODULE_5__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_About__WEBPACK_IMPORTED_MODULE_2__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Timeline__WEBPACK_IMPORTED_MODULE_3__.default, {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})]
   });
 }
 
@@ -630,16 +629,16 @@ var Navigation = function Navigation(props) {
                 children: "Home"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default.Link, {
                 as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
+                to: "#portfolio",
+                children: "Portfolio"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default.Link, {
+                as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
                 to: "/#about",
                 children: "About"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default.Link, {
                 as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
                 to: "/blog",
                 children: "Blog"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default.Link, {
-                as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
-                to: "/projects",
-                children: "Projects"
               })]
             })]
           })]
@@ -650,6 +649,61 @@ var Navigation = function Navigation(props) {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navigation);
+
+/***/ }),
+
+/***/ "./src/components/Portfolio.jsx":
+/*!**************************************!*\
+  !*** ./src/components/Portfolio.jsx ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Projects */ "./src/components/Projects.jsx");
+/* harmony import */ var _images_Fala_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/Fala.png */ "./src/images/Fala.png");
+/* harmony import */ var _images_Climbr_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/Climbr.png */ "./src/images/Climbr.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+function Portfolio() {
+  var projectsList = [{
+    title: "Fala",
+    description: "A Portuguese Vocab Review Application",
+    image: _images_Fala_png__WEBPACK_IMPORTED_MODULE_2__,
+    link: ""
+  }, {
+    title: "Climbr",
+    description: "A Social Network for Climbr and Outdoor Enthusiasts",
+    image: _images_Climbr_png__WEBPACK_IMPORTED_MODULE_3__,
+    link: ""
+  }];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+    id: "portfolio",
+    className: "portfolio-container",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+      className: "portfolio-title-wrapper",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+        className: "portfolio-title",
+        children: "Portfolio"
+      })
+    }), projectsList.map(function (project, i) {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Projects__WEBPACK_IMPORTED_MODULE_1__.default, {
+        project: project
+      });
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Portfolio);
 
 /***/ }),
 
@@ -668,15 +722,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Projects() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    style: {
-      background: "black",
-      color: "white"
-    },
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
-      children: "I'm in Projects"
-    })
+
+function Projects(_ref) {
+  var project = _ref.project;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    className: "project-container",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "project-image-wrapper",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        src: project.image,
+        alt: "",
+        className: "project-image"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "project-info-wrapper",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
+        className: "project-title",
+        children: project.title
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+        className: "project-info",
+        children: project.description
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+        href: project.link,
+        className: "project-link",
+        children: "Check it out on Github"
+      })]
+    })]
   });
 }
 
@@ -726,6 +797,26 @@ __webpack_require__.r(__webpack_exports__);
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "df1304b5fb7597728605.jpg";
+
+/***/ }),
+
+/***/ "./src/images/Climbr.png":
+/*!*******************************!*\
+  !*** ./src/images/Climbr.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "24ba404d814773927080.png";
+
+/***/ }),
+
+/***/ "./src/images/Fala.png":
+/*!*****************************!*\
+  !*** ./src/images/Fala.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "cfa188fb303064f620fd.png";
 
 /***/ }),
 
