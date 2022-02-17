@@ -1,0 +1,31 @@
+@use "variables" as var;
+@use "projects";
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: var.$cuprum;
+
+  width: 100vw;
+  padding: 20px 10px;
+
+  background: linear-gradient(var.$blue-rgba, var.$blue-rgba), url(var.$geo-bkg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio-title {
+  font-size: 3rem;
+  margin-bottom: 5vh;
+  text-shadow: var.$black-shadow;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+@media screen and (min-width: 500px) {
+  .portfolio-title {
+    font-size: 3.5rem;
+  }
+}

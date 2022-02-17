@@ -14,19 +14,19 @@ function Blog() {
     {
       title: "Flask API Basics",
       image: blue_green,
-      link: "#",
+      link: "",
       description: "React, GraphQL, Flask App -- Part 1",
     },
     {
       title: "Flask Application Factory",
       image: purple_triangle,
-      link: "#",
+      link: "",
       description: "React, GraphQL, Flask App -- Part 2",
     },
     {
       title: "Flask & GraphQL",
       image: mountain3,
-      link: "#",
+      link: "",
       description: "React, GraphQL, Flask App -- Part 3",
     },
   ];

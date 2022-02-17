@@ -42,7 +42,7 @@ function About() {
             including:
           </p>
           <ol className="about-info-text-list">
-            <ul className="about-info-text info-list-item">problem solving</ul>
+            <ul className="about-info-text info-list-item">problem solver</ul>
             <ul className="about-info-text info-list-item">time management</ul>
             <ul className="about-info-text info-list-item">
               interpersonal relationships

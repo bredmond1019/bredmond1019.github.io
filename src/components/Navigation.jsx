@@ -25,6 +25,9 @@ const Navigation = (props) => {
                 <Nav.Link as={NavHashLink} to="/#home">
                   Home
                 </Nav.Link>
+                <Nav.Link as={NavHashLink} to="#portfolio">
+                  Portfolio
+                </Nav.Link>
 
                 <Nav.Link as={NavHashLink} to="/#about">
                   About
@@ -32,10 +35,6 @@ const Navigation = (props) => {
 
                 <Nav.Link as={NavHashLink} to="/blog">
                   Blog
-                </Nav.Link>
-
-                <Nav.Link as={NavHashLink} to="/projects">
-                  Projects
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

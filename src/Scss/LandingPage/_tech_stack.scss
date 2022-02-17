@@ -1,7 +1,14 @@
 @use "../variables" as var;
 
 .tech-stack {
-  background-color: var.$green;
+  // background-color: var.$green;
+
+  background: linear-gradient(var.$green-rgba, var.$green-rgba),
+    url(var.$circle-bkg);
+  background-size: cover;
+  background-position: center;
+  // background-repeat: no-repeat;
+
   border-bottom: 2px solid var.$blue;
 
   display: flex;
@@ -11,6 +18,7 @@
   text-align: center;
 
   padding: 5vh 5vw;
+  min-height: 600px;
 
   // font-family: var.$architect;
 

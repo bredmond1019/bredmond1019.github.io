@@ -4,6 +4,7 @@ import Contact_Info from "./Contact_Info";
 import About from "./About";
 import Timeline from "./Timeline";
 import TechStack from "./TechStack";
+import Portfolio from "../Portfolio";
 
 export default function Landing() {
   return (
@@ -20,8 +21,9 @@ export default function Landing() {
         </div>
       </div>
       <div id="about" className="about-wrapper">
-        <About />
         <TechStack />
+        <Portfolio />
+        <About />
         <Timeline />
       </div>
 
