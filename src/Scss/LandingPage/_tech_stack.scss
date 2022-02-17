@@ -65,6 +65,36 @@
   height: 100%;
 }
 
+@media screen and (min-width: 600px) {
+  .icon-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .icon-container {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .icon-wrapper {
+    width: 100%;
+    max-width: 1030px;
+  }
+
+  .icon-container {
+    width: fit-content;
+    flex-wrap: nowrap;
+  }
+}
+// @media screen and (min-width: 900px) {
+//   .icon-container {
+//     margin: 5vh 20px;
+//     flex-wrap: nowrap;
+//   }
+// }
+
 // .tech-stack {
 //   position: relative;
 //   background-color: #734ae8;

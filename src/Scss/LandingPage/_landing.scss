@@ -39,3 +39,13 @@
   text-transform: lowercase;
   // white-space: nowrap;
 }
+
+@media screen and (min-width: 1000px) {
+  .landing-title {
+    font-size: 4.2rem;
+  }
+
+  .landing-subtitle {
+    font-size: 2rem;
+  }
+}
