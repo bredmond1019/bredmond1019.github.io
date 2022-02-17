@@ -33,14 +33,20 @@
 	letter-spacing: 4px;
 }
 
-.about-img-container {
+.about-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about-image-container {
 	height: auto;
 	margin-bottom: 5vh;
+	max-width: 250px;
 }
 
 .about-img {
 	width: 100%;
-	max-width: 400px;
+
 	border-radius: 20px;
 }
 
@@ -55,6 +61,7 @@
 
 @media screen and (min-width: 700px) {
 	.about-content-wrapper {
+		display: block;
 		width: 100%;
 	}
 

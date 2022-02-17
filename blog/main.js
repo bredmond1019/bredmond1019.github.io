@@ -14,13 +14,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/index.js");
 /* harmony import */ var _components_Navigation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Navigation */ "./src/components/Navigation.jsx");
-/* harmony import */ var _components_Landing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Landing */ "./src/components/Landing.jsx");
-/* harmony import */ var _components_AboutPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/AboutPage */ "./src/components/AboutPage.jsx");
-/* harmony import */ var _components_Blog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Blog */ "./src/components/Blog.jsx");
-/* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Projects */ "./src/components/Projects.jsx");
+/* harmony import */ var _components_LandingPage_Landing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/LandingPage/Landing */ "./src/components/LandingPage/Landing.jsx");
+/* harmony import */ var _components_Blog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Blog */ "./src/components/Blog.jsx");
+/* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Projects */ "./src/components/Projects.jsx");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
+ // import AboutPage from "./components/AboutPage";
 
 
 
@@ -32,110 +33,20 @@ function App() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Navigation__WEBPACK_IMPORTED_MODULE_0__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Routes, {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
-        path: "/about",
-        element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_AboutPage__WEBPACK_IMPORTED_MODULE_2__.default, {})
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
-        path: "/projects",
-        element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Projects__WEBPACK_IMPORTED_MODULE_4__.default, {})
+        path: "/",
+        element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_LandingPage_Landing__WEBPACK_IMPORTED_MODULE_1__.default, {})
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
         path: "/blog",
-        element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Blog__WEBPACK_IMPORTED_MODULE_3__.default, {})
+        element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Blog__WEBPACK_IMPORTED_MODULE_2__.default, {})
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
-        path: "/",
-        element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Landing__WEBPACK_IMPORTED_MODULE_1__.default, {})
+        path: "/projects",
+        element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Projects__WEBPACK_IMPORTED_MODULE_3__.default, {})
       })]
     })]
   });
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
-
-/***/ }),
-
-/***/ "./src/components/About.jsx":
-/*!**********************************!*\
-  !*** ./src/components/About.jsx ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _images_Brandon2_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/Brandon2.jpeg */ "./src/images/Brandon2.jpeg");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-function About() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    id: "about-section",
-    className: "about-section",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "about",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "about-img-container",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-          src: _images_Brandon2_jpeg__WEBPACK_IMPORTED_MODULE_1__,
-          className: "about-img",
-          alt: ""
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "about-info",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
-          className: "about-info-title",
-          children: "About Me"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-          className: "about-info-text",
-          children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quo, facere iure asperiores saepe doloremque aspernatur soluta voluptas quos nisi, facilis dolor dicta labore fugiat neque similique iusto voluptate at."
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-          className: "about-info-text",
-          children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quo, facere iure asperiores saepe doloremque aspernatur soluta voluptas quos nisi, facilis dolor dicta labore fugiat neque similique iusto voluptate at."
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-          className: "about-info-text",
-          children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quo, facere iure asperiores saepe doloremque aspernatur soluta voluptas quos nisi, facilis dolor dicta labore fugiat neque similique iusto voluptate at."
-        })]
-      })]
-    })
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
-
-/***/ }),
-
-/***/ "./src/components/AboutPage.jsx":
-/*!**************************************!*\
-  !*** ./src/components/AboutPage.jsx ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./About */ "./src/components/About.jsx");
-/* harmony import */ var _Timeline__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Timeline */ "./src/components/Timeline.jsx");
-/* harmony import */ var _TechStack__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TechStack */ "./src/components/TechStack.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-
-function AboutPage() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-    id: "about-wrapper",
-    className: "about-wrapper",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_About__WEBPACK_IMPORTED_MODULE_0__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_TechStack__WEBPACK_IMPORTED_MODULE_2__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Timeline__WEBPACK_IMPORTED_MODULE_1__.default, {})]
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AboutPage);
 
 /***/ }),
 
@@ -251,10 +162,10 @@ function Blog() {
 
 /***/ }),
 
-/***/ "./src/components/Contact_Info.jsx":
-/*!*****************************************!*\
-  !*** ./src/components/Contact_Info.jsx ***!
-  \*****************************************/
+/***/ "./src/components/LandingPage/About.jsx":
+/*!**********************************************!*\
+  !*** ./src/components/LandingPage/About.jsx ***!
+  \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -262,11 +173,71 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _images_contact_info_profile_pic_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/contact_info/profile_pic.png */ "./src/images/contact_info/profile_pic.png");
-/* harmony import */ var _images_contact_info_github_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/contact_info/github.svg */ "./src/images/contact_info/github.svg");
-/* harmony import */ var _images_contact_info_linkedin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/contact_info/linkedin.svg */ "./src/images/contact_info/linkedin.svg");
-/* harmony import */ var _images_contact_info_insta_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../images/contact_info/insta.svg */ "./src/images/contact_info/insta.svg");
-/* harmony import */ var _images_contact_info_email_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../images/contact_info/email.svg */ "./src/images/contact_info/email.svg");
+/* harmony import */ var _images_Brandon3_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../images/Brandon3.jpg */ "./src/images/Brandon3.jpg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+function About() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    id: "about-section",
+    className: "about-section",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+      className: "about-title",
+      children: "About Me"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "about-content-wrapper",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "about-image-container",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+          src: _images_Brandon3_jpg__WEBPACK_IMPORTED_MODULE_1__,
+          className: "about-img",
+          alt: ""
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "about-info-wrapper",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+          className: "about-info-text",
+          children: "Hello, my name is Brandon Redmond and welcome to my blog! I am a Full Stack Software Developer based out of New York City."
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+          className: "about-info-text",
+          children: "I am web developer with a passion for learning and teaching others. I used to teach high school Computer Science and Mathematics for about 6 years, until the end of 2020 when I decided to make a change and persue a career as a Full Stack Web Developer."
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+          className: "about-info-text",
+          children: "I first started learning how to code while I was getting my Master's degree in Mathematics. Seeing the way the world was rapidly evolving, I knew that coding was going to be a crucial skill to have. After learning the basics and having completed my master's, I decided to speak with my principal and create a Computer Science Department in our school and become the full-time Computer Science Teacher. I taught students the fundamentals of development using Python, PyGame, and Python Turtle. Eventually I taught kids how to build basic web apps using HTML, CSS, and Flask."
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+          className: "about-info-text",
+          children: "Teaching was an amazing job and I'm so happy to have spent as much time as I did teaching kids -- I'll never forget it. But deep down, I knew that I wasn't going to be in the classroom forever. I've learned a lot of valuable skills as a classroom teacher that I am excited to carry with me into my career as a software developer, including: excellent communuication, organization, time management, interpersonal relationships, patience, and being able to think on my toes in a fast paced environment."
+        })]
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "about-info"
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
+
+/***/ }),
+
+/***/ "./src/components/LandingPage/Contact_Info.jsx":
+/*!*****************************************************!*\
+  !*** ./src/components/LandingPage/Contact_Info.jsx ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _images_contact_info_profile_pic_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../images/contact_info/profile_pic.png */ "./src/images/contact_info/profile_pic.png");
+/* harmony import */ var _images_contact_info_github_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../images/contact_info/github.svg */ "./src/images/contact_info/github.svg");
+/* harmony import */ var _images_contact_info_linkedin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../images/contact_info/linkedin.svg */ "./src/images/contact_info/linkedin.svg");
+/* harmony import */ var _images_contact_info_insta_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../images/contact_info/insta.svg */ "./src/images/contact_info/insta.svg");
+/* harmony import */ var _images_contact_info_email_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../images/contact_info/email.svg */ "./src/images/contact_info/email.svg");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -337,10 +308,10 @@ function Contact_Info() {
 
 /***/ }),
 
-/***/ "./src/components/Landing.jsx":
-/*!************************************!*\
-  !*** ./src/components/Landing.jsx ***!
-  \************************************/
+/***/ "./src/components/LandingPage/Landing.jsx":
+/*!************************************************!*\
+  !*** ./src/components/LandingPage/Landing.jsx ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -348,30 +319,253 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ Landing)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Contact_Info__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact_Info */ "./src/components/Contact_Info.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Contact_Info__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact_Info */ "./src/components/LandingPage/Contact_Info.jsx");
+/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./About */ "./src/components/LandingPage/About.jsx");
+/* harmony import */ var _Timeline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Timeline */ "./src/components/LandingPage/Timeline.jsx");
+/* harmony import */ var _TechStack__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TechStack */ "./src/components/LandingPage/TechStack.jsx");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
 
 
 
 
 function Landing() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      id: "landing-wrapper",
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      id: "home",
       className: "landing-wrapper",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
         className: "landing-page",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
-          className: "title",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
+          className: "landing-title",
           children: "Brandon Redmond"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
-          className: "title-description",
-          children: "Software Developer. Language Enthusiast. Dog Lover."
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+          className: "landing-subtitle-wrapper",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
+            className: "landing-subtitle ",
+            children: "Software Developer."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
+            className: "landing-subtitle ",
+            children: "Language Enthusiast."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
+            className: "landing-subtitle ",
+            children: "Dog Lover."
+          })]
         })]
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+      id: "about",
+      className: "about-wrapper",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_About__WEBPACK_IMPORTED_MODULE_2__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_TechStack__WEBPACK_IMPORTED_MODULE_4__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Timeline__WEBPACK_IMPORTED_MODULE_3__.default, {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})]
   });
 }
+
+/***/ }),
+
+/***/ "./src/components/LandingPage/TechStack.jsx":
+/*!**************************************************!*\
+  !*** ./src/components/LandingPage/TechStack.jsx ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _images_tech_stack_Python_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../images/tech_stack/Python.svg */ "./src/images/tech_stack/Python.svg");
+/* harmony import */ var _images_tech_stack_JS_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../images/tech_stack/JS.svg */ "./src/images/tech_stack/JS.svg");
+/* harmony import */ var _images_tech_stack_Flask_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../images/tech_stack/Flask.svg */ "./src/images/tech_stack/Flask.svg");
+/* harmony import */ var _images_tech_stack_React_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../images/tech_stack/React.svg */ "./src/images/tech_stack/React.svg");
+/* harmony import */ var _images_tech_stack_GraphQL_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../images/tech_stack/GraphQL.svg */ "./src/images/tech_stack/GraphQL.svg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+
+function TechStack() {
+  var techStack = [{
+    name: "python",
+    image: _images_tech_stack_Python_svg__WEBPACK_IMPORTED_MODULE_1__
+  }, {
+    name: "flask",
+    image: _images_tech_stack_Flask_svg__WEBPACK_IMPORTED_MODULE_3__
+  }, {
+    name: "graphql",
+    image: _images_tech_stack_GraphQL_svg__WEBPACK_IMPORTED_MODULE_5__
+  }, {
+    name: "react",
+    image: _images_tech_stack_React_svg__WEBPACK_IMPORTED_MODULE_4__
+  }, {
+    name: "javascript",
+    image: _images_tech_stack_JS_svg__WEBPACK_IMPORTED_MODULE_2__
+  }];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+    className: "tech-stack",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+      className: "tech-stack-header",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h1", {
+        className: "tech-stack-title",
+        children: "My Tech Stack"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h4", {
+        className: "tech-stack-subtitle",
+        children: "These are the technologies I use most often"
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+      className: "icon-wrapper",
+      children: techStack.map(function (skill, i) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+          className: "".concat(skill.name, " icon-container"),
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+            className: "icon-title-wrapper",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h3", {
+              className: "icon-title",
+              children: skill.name
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+            className: "icon-img-container",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
+              src: skill.image,
+              className: "".concat(skill.name, "-img icon-img"),
+              alt: ""
+            })
+          })]
+        }, i);
+      })
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TechStack);
+
+/***/ }),
+
+/***/ "./src/components/LandingPage/Timeline.jsx":
+/*!*************************************************!*\
+  !*** ./src/components/LandingPage/Timeline.jsx ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _images_time_line_math1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../images/time_line/math1.jpg */ "./src/images/time_line/math1.jpg");
+/* harmony import */ var _images_time_line_math_masters_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../images/time_line/math_masters.jpg */ "./src/images/time_line/math_masters.jpg");
+/* harmony import */ var _images_time_line_classroom_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../images/time_line/classroom.jpg */ "./src/images/time_line/classroom.jpg");
+/* harmony import */ var _images_time_line_uber_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../images/time_line/uber.svg */ "./src/images/time_line/uber.svg");
+/* harmony import */ var _images_time_line_software_developer_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../images/time_line/software_developer.png */ "./src/images/time_line/software_developer.png");
+/* harmony import */ var _images_time_line_math_teacher2_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../../images/time_line/math_teacher2.jpg */ "./src/images/time_line/math_teacher2.jpg");
+/* harmony import */ var _images_time_line_mountain2_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../../images/time_line/mountain2.jpg */ "./src/images/time_line/mountain2.jpg");
+/* harmony import */ var _images_time_line_mfa_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../../images/time_line/mfa.png */ "./src/images/time_line/mfa.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+
+
+
+
+function Timeline() {
+  var timeLineItems = [{
+    image: _images_time_line_math1_jpg__WEBPACK_IMPORTED_MODULE_1__,
+    date: "2006 - 2010",
+    title: "Dual Bachelor's Degree: Mathematics & Education"
+  }, {
+    image: _images_time_line_math_teacher2_jpg__WEBPACK_IMPORTED_MODULE_6__,
+    date: "2011 - 2013",
+    title: "High School Mathematics Teacher"
+  }, {
+    image: _images_time_line_uber_svg__WEBPACK_IMPORTED_MODULE_4__,
+    date: "2013 - 2014",
+    title: "Uber Technologies - Operations: Driver Side"
+  }, {
+    image: _images_time_line_classroom_jpg__WEBPACK_IMPORTED_MODULE_3__,
+    date: "2014 - 2020",
+    title: "High School Computer Science & Mathematics Teacher"
+  }, {
+    image: _images_time_line_math_masters_jpg__WEBPACK_IMPORTED_MODULE_2__,
+    date: "2015 - 2017",
+    title: "Master's Degree in Mathematics"
+  }, {
+    image: _images_time_line_mfa_png__WEBPACK_IMPORTED_MODULE_8__,
+    date: "2017-2020",
+    title: "Math For America Master Teacher"
+  }, {
+    image: _images_time_line_software_developer_png__WEBPACK_IMPORTED_MODULE_5__,
+    date: "2020 - Present",
+    title: "Software Developer"
+  }];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
+    className: "timeline",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
+      className: "timeline-header",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("h1", {
+        className: "timeline-title",
+        children: "Education and Experience"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("h3", {
+        className: "timeline-subtitle",
+        children: "My Professional Story"
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
+      className: "timeline-items-wrapper",
+      children: [timeLineItems.map(function (item, i) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
+          className: "timeline-item-wrapper",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
+            className: "timeline-image-container",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("img", {
+              src: item.image,
+              alt: "",
+              className: "timeline-image"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
+            className: "tile ",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
+              className: "tile-body",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
+                className: "tile-grow",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("h1", {
+                  className: "tile-title",
+                  children: item.date
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("p", {
+                  className: "tile-detail",
+                  children: item.title
+                })]
+              })
+            })
+          })]
+        });
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
+        className: "final-image-wrapper",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("div", {
+          className: "image-container",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("img", {
+            src: _images_time_line_mountain2_jpg__WEBPACK_IMPORTED_MODULE_7__,
+            alt: "",
+            className: "timeline-image"
+          })
+        })
+      })]
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Timeline);
 
 /***/ }),
 
@@ -422,14 +616,13 @@ var Navigation = function Navigation(props) {
               to: "/"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
               className: "justify-content-end",
-              activeKey: location,
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default.Link, {
                 as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
-                to: "/#landing-wrapper",
+                to: "/#home",
                 children: "Home"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default.Link, {
                 as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
-                to: "/about#about-wrapper",
+                to: "/#about",
                 children: "About"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default.Link, {
                 as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
@@ -483,345 +676,6 @@ function Projects() {
 
 /***/ }),
 
-/***/ "./src/components/TechStack.jsx":
-/*!**************************************!*\
-  !*** ./src/components/TechStack.jsx ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _images_tech_stack_Python_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/tech_stack/Python.svg */ "./src/images/tech_stack/Python.svg");
-/* harmony import */ var _images_tech_stack_JS_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/tech_stack/JS.svg */ "./src/images/tech_stack/JS.svg");
-/* harmony import */ var _images_tech_stack_Flask_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/tech_stack/Flask.svg */ "./src/images/tech_stack/Flask.svg");
-/* harmony import */ var _images_tech_stack_React_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../images/tech_stack/React.svg */ "./src/images/tech_stack/React.svg");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-
-
-
-function TechStack() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-    className: "tech-stack",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-      className: "tech-stack-header",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
-        className: "tech-stack-title",
-        children: "My Tech Stack"
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-      className: "description",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h4", {
-        children: "These are the technologies I use most often"
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "python icon-container",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "icon-title",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h3", {
-          children: "Python"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "icon-img-container",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
-          src: _images_tech_stack_Python_svg__WEBPACK_IMPORTED_MODULE_1__,
-          className: "python-img icon-img",
-          alt: ""
-        })
-      })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "flask icon-container",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "icon-title",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h3", {
-          children: "Flask"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "icon-img-container",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
-          src: _images_tech_stack_Flask_svg__WEBPACK_IMPORTED_MODULE_3__,
-          className: "flask-img icon-img",
-          alt: ""
-        })
-      })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "react icon-container",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "icon-title",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h3", {
-          children: "React"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "icon-img-container",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
-          src: _images_tech_stack_React_svg__WEBPACK_IMPORTED_MODULE_4__,
-          className: "react-img icon-img",
-          alt: ""
-        })
-      })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "javascript icon-container",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "icon-title",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h3", {
-          children: "JavaScript"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "icon-img-container",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
-          src: _images_tech_stack_JS_svg__WEBPACK_IMPORTED_MODULE_2__,
-          className: "javascript-img icon-img",
-          alt: ""
-        })
-      })]
-    })]
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TechStack);
-
-/***/ }),
-
-/***/ "./src/components/Timeline.jsx":
-/*!*************************************!*\
-  !*** ./src/components/Timeline.jsx ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _images_time_line_math1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/time_line/math1.jpg */ "./src/images/time_line/math1.jpg");
-/* harmony import */ var _images_time_line_math_masters_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/time_line/math_masters.jpg */ "./src/images/time_line/math_masters.jpg");
-/* harmony import */ var _images_time_line_classroom_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/time_line/classroom.jpg */ "./src/images/time_line/classroom.jpg");
-/* harmony import */ var _images_time_line_uber_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../images/time_line/uber.svg */ "./src/images/time_line/uber.svg");
-/* harmony import */ var _images_time_line_software_developer_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../images/time_line/software_developer.png */ "./src/images/time_line/software_developer.png");
-/* harmony import */ var _images_time_line_math_teacher2_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../images/time_line/math_teacher2.jpg */ "./src/images/time_line/math_teacher2.jpg");
-/* harmony import */ var _images_time_line_mountain2_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../images/time_line/mountain2.jpg */ "./src/images/time_line/mountain2.jpg");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-
-
-
-
-
-
-function Timeline() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-    className: "timeline",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-      className: "timeline-header",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h1", {
-        className: "heading",
-        children: "Education and Experience"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h3", {
-        children: "My Professional Story"
-      })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-      className: "timeline-items",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-        className: "timeline-item",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "memory-image",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "image-container",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
-              src: _images_time_line_math1_jpg__WEBPACK_IMPORTED_MODULE_1__,
-              alt: "",
-              className: "image-style"
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "tile ",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "tile-body",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-              className: "tile-grow",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h1", {
-                className: "tile-title",
-                children: "2006 - 2010 "
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-                className: "tile-detail",
-                children: "Dual Bachelor's Degree: Mathematics & Education"
-              })]
-            })
-          })
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-        className: "timeline-item",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "memory-image",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "image-container",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
-              src: _images_time_line_math_teacher2_jpg__WEBPACK_IMPORTED_MODULE_6__,
-              alt: "",
-              className: "image-style"
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "tile",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "tile-body",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-              className: "tile-grow",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h1", {
-                className: "tile-title",
-                children: "2011 - 2013"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-                className: "tile-detail",
-                children: "High School Mathematics Teacher"
-              })]
-            })
-          })
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-        className: "timeline-item",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "memory-image",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "image-container",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
-              src: _images_time_line_uber_svg__WEBPACK_IMPORTED_MODULE_4__,
-              alt: "",
-              className: "image-style"
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "tile",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "tile-body",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-              className: "tile-grow",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h1", {
-                className: "tile-title",
-                children: "2013 - 2014"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-                className: "tile-detail",
-                children: "Uber Technologies - Operations: Driver Side"
-              })]
-            })
-          })
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-        className: "timeline-item",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "memory-image",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "image-container",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
-              src: _images_time_line_classroom_jpg__WEBPACK_IMPORTED_MODULE_3__,
-              alt: "",
-              className: "image-style"
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "tile",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "tile-body",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-              className: "tile-grow",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h1", {
-                className: "tile-title",
-                children: "2014 - 2020"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-                className: "tile-detail",
-                children: "High School Computer Science & Mathematics Teacher"
-              })]
-            })
-          })
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-        className: "timeline-item",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "memory-image",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "image-container",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
-              src: _images_time_line_math_masters_jpg__WEBPACK_IMPORTED_MODULE_2__,
-              alt: "",
-              className: "image-style"
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "tile",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "tile-body",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-              className: "tile-grow",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h1", {
-                className: "tile-title",
-                children: "2015 - 2017"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-                className: "tile-detail",
-                children: "Master's Degree in Mathematics"
-              })]
-            })
-          })
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-        className: "timeline-item",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "memory-image",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "image-container",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
-              src: _images_time_line_software_developer_png__WEBPACK_IMPORTED_MODULE_5__,
-              alt: "",
-              className: "image-style"
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "tile",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "tile-body",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-              className: "tile-grow",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h1", {
-                className: "tile-title",
-                children: "2020 - Present"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-                className: "tile-detail",
-                children: "Software Developer"
-              })]
-            })
-          })
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-        className: "final-image-wrapper",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-          className: "memory-image",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-            className: "image-container",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
-              src: _images_time_line_mountain2_jpg__WEBPACK_IMPORTED_MODULE_7__,
-              alt: "",
-              className: "image-style"
-            })
-          })
-        })
-      })]
-    })]
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Timeline);
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -857,13 +711,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/images/Brandon2.jpeg":
-/*!**********************************!*\
-  !*** ./src/images/Brandon2.jpeg ***!
-  \**********************************/
+/***/ "./src/images/Brandon3.jpg":
+/*!*********************************!*\
+  !*** ./src/images/Brandon3.jpg ***!
+  \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "deaf916a2595101de1a5.jpeg";
+module.exports = __webpack_require__.p + "df1304b5fb7597728605.jpg";
 
 /***/ }),
 
@@ -967,6 +821,16 @@ module.exports = __webpack_require__.p + "3ad55a4c33628c7e68b6.svg";
 
 /***/ }),
 
+/***/ "./src/images/tech_stack/GraphQL.svg":
+/*!*******************************************!*\
+  !*** ./src/images/tech_stack/GraphQL.svg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "61116f4fcb1318abddc3.svg";
+
+/***/ }),
+
 /***/ "./src/images/tech_stack/JS.svg":
 /*!**************************************!*\
   !*** ./src/images/tech_stack/JS.svg ***!
@@ -1034,6 +898,16 @@ module.exports = __webpack_require__.p + "731f5da4472f55c44549.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "088da5e35a5627879199.jpg";
+
+/***/ }),
+
+/***/ "./src/images/time_line/mfa.png":
+/*!**************************************!*\
+  !*** ./src/images/time_line/mfa.png ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "4c7b1b23a83fdb49d4af.png";
 
 /***/ }),
 
@@ -1244,7 +1118,7 @@ module.exports = __webpack_require__.p + "599c862c77c9eb279c5e.svg";
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_react-bootstrap_esm_Container_js-node_modules_react-bootstrap_esm_Nav_js-6d7c62"], () => (__webpack_require__("./src/index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_bootstrap_dist_css_bootstrap_min_css-node_modules_react-bootstrap_esm_Co-9ea715"], () => (__webpack_require__("./src/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
