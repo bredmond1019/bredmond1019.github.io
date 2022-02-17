@@ -203,7 +203,7 @@ function About() {
           children: "Hello, my name is Brandon Redmond and welcome to my blog! I am a Full Stack Software Developer based out of New York City."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
           className: "about-info-text",
-          children: "I am web developer with a passion for learning and teaching others. I used to teach high school Computer Science and Mathematics for about 6 years, until the end of 2020 when I decided to make a change and persue a career as a Full Stack Web Developer."
+          children: "I am a web developer with a passion for learning and teaching. I used to teach high school Computer Science and Mathematics for about 6 years, until the end of 2020 when I decided to make a change and persue a career as a Full Stack Web Developer."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
           className: "about-info-text",
           children: "I first started learning how to code while I was getting my Master's degree in Mathematics. Seeing the way the world was rapidly evolving, I knew that coding was going to be a crucial skill to have. After learning the basics and having completed my master's, I decided to speak with my principal and create a Computer Science Department in our school and become the full-time Computer Science Teacher. I taught students the fundamentals of development using Python, PyGame, and Python Turtle. Eventually I taught kids how to build basic web apps using HTML, CSS, and Flask."

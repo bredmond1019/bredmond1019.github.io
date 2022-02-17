@@ -15,10 +15,10 @@ function About() {
 						Full Stack Software Developer based out of New York City.
 					</p>
 					<p className="about-info-text">
-						I am web developer with a passion for learning and teaching others.
-						I used to teach high school Computer Science and Mathematics for
-						about 6 years, until the end of 2020 when I decided to make a change
-						and persue a career as a Full Stack Web Developer.
+						I am a web developer with a passion for learning and teaching. I
+						used to teach high school Computer Science and Mathematics for about
+						6 years, until the end of 2020 when I decided to make a change and
+						persue a career as a Full Stack Web Developer.
 					</p>
 
 					<p className="about-info-text">
