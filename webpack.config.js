@@ -3,6 +3,7 @@ var webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const CnameWebpackPlugin = require("cname-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -56,6 +57,9 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
+    }),
+    new CnameWebpackPlugin({
+      domain: "brandonredmond.com",
     }),
     // new webpack.DllReferencePlugin({
     //   context: __dirname,
