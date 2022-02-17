@@ -61,9 +61,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _images_puppy_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../images/puppy.jpeg */ "./src/images/puppy.jpeg");
-/* harmony import */ var _images_blog_page_blue_green_avif__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/blog_page/blue_green.avif */ "./src/images/blog_page/blue_green.avif");
-/* harmony import */ var _images_blog_page_mountain3_avif__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/blog_page/mountain3.avif */ "./src/images/blog_page/mountain3.avif");
-/* harmony import */ var _images_blog_page_purple_triangle_avif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/blog_page/purple_triangle.avif */ "./src/images/blog_page/purple_triangle.avif");
+/* harmony import */ var _images_blog_page_blue_green_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/blog_page/blue_green.jpeg */ "./src/images/blog_page/blue_green.jpeg");
+/* harmony import */ var _images_blog_page_mountain3_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/blog_page/mountain3.jpeg */ "./src/images/blog_page/mountain3.jpeg");
+/* harmony import */ var _images_blog_page_purple_triangle_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/blog_page/purple_triangle.jpeg */ "./src/images/blog_page/purple_triangle.jpeg");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -73,83 +73,67 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Blog() {
+  var blogArticles = [{
+    title: "From Teacher of Many to Teacher of One",
+    image: _images_blog_page_mountain3_jpeg__WEBPACK_IMPORTED_MODULE_2__,
+    link: "https://dev.to/bredmond1019/from-teacher-of-many-to-teacher-of-one-tips-on-how-to-be-a-self-taught-194p",
+    description: "A Teacher's Tips on Being a Self-Taught Learner"
+  }, {
+    title: "Flask API Basics",
+    image: _images_blog_page_blue_green_jpeg__WEBPACK_IMPORTED_MODULE_1__,
+    link: "#",
+    description: "React, GraphQL, Flask App -- Part 1"
+  }, {
+    title: "Flask Application Factory",
+    image: _images_blog_page_purple_triangle_jpeg__WEBPACK_IMPORTED_MODULE_3__,
+    link: "#",
+    description: "React, GraphQL, Flask App -- Part 2"
+  }, {
+    title: "Flask & GraphQL",
+    image: _images_blog_page_mountain3_jpeg__WEBPACK_IMPORTED_MODULE_2__,
+    link: "#",
+    description: "React, GraphQL, Flask App -- Part 3"
+  }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
     className: "blog-page-wrapper",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "blog-main-page",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
         className: "blog-main-title-wrapper",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
           className: "blog-main-title",
-          children: "Welcome to my blog page"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-          className: "blog-main-description",
-          children: "As I write more blogs, I will continue to add them here"
-        })]
+          children: "Welcome to my blog"
+        })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "blog-articles-wrapper",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "blog-articles-info-wrapper",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "blog-article-box-wrapper",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-              className: "blog-article-image-wrapper",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                src: _images_blog_page_mountain3_avif__WEBPACK_IMPORTED_MODULE_2__,
-                alt: "",
-                className: "blog-article-image"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              className: "blog-info-wrapper",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
-                className: "blog-article-title",
-                children: "Blog Article 1"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "blog-article-description",
-                children: "My blog article is about this and that. Also this. Mostly that."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tenetur eveniet modi nobis non sed nisi dicta voluptas accusamus accusantium sunt laboriosam, similique adipisci sequi quidem dignissimos mollitia aut temporibus!"
+          children: blogArticles.map(function (article, i) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "blog-article-box-wrapper",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                className: "blog-article-image-wrapper",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                  src: article.image,
+                  alt: "",
+                  className: "blog-article-image"
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                className: "blog-link",
+                href: article.link,
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "blog-info-wrapper",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+                    className: "blog-article-title",
+                    children: article.title
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                    className: "blog-article-description",
+                    children: article.description
+                  })]
+                })
               })]
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "blog-article-box-wrapper",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-              className: "blog-article-image-wrapper",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                src: _images_blog_page_blue_green_avif__WEBPACK_IMPORTED_MODULE_1__,
-                alt: "",
-                className: "blog-article-image"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              className: "blog-info-wrapper",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
-                className: "blog-article-title",
-                children: "Blog Article 2"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "blog-article-description",
-                children: "My blog article is about this and that. Also this. Mostly that."
-              })]
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "blog-article-box-wrapper",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-              className: "blog-article-image-wrapper",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                src: _images_blog_page_purple_triangle_avif__WEBPACK_IMPORTED_MODULE_3__,
-                alt: "",
-                className: "blog-article-image"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              className: "blog-info-wrapper",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
-                className: "blog-article-title",
-                children: "Blog Article 3"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "blog-article-description",
-                children: "My blog article is about this and that. Also this. Mostly that."
-              })]
-            })]
-          })]
+            });
+          })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
           className: "side-panel"
         })]
@@ -209,7 +193,31 @@ function About() {
           children: "I first started learning how to code while I was getting my Master's degree in Mathematics. Seeing the way the world was rapidly evolving, I knew that coding was going to be a crucial skill to have. After learning the basics and having completed my master's, I decided to speak with my principal and create a Computer Science Department in our school and become the full-time Computer Science Teacher. I taught students the fundamentals of development using Python, PyGame, and Python Turtle. Eventually I taught kids how to build basic web apps using HTML, CSS, and Flask."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
           className: "about-info-text",
-          children: "Teaching was an amazing job and I'm so happy to have spent as much time as I did teaching kids -- I'll never forget it. But deep down, I knew that I wasn't going to be in the classroom forever. I've learned a lot of valuable skills as a classroom teacher that I am excited to carry with me into my career as a software developer, including: excellent communuication, organization, time management, interpersonal relationships, patience, and being able to think on my toes in a fast paced environment."
+          children: "Teaching was an amazing job and I'm so happy to have spent as much time as I did teaching kids -- I'll never forget it. But deep down, I knew that I wasn't going to be in the classroom forever. I've learned a lot of valuable skills as a classroom teacher that I am excited to carry with me into my career as a software developer, including:"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ol", {
+          className: "about-info-text-list",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
+            className: "about-info-text info-list-item",
+            children: "problem solving"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
+            className: "about-info-text info-list-item",
+            children: "time management"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
+            className: "about-info-text info-list-item",
+            children: "interpersonal relationships"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
+            className: "about-info-text info-list-item",
+            children: "Adaptable in a fast paced environment"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
+            className: "about-info-text info-list-item",
+            children: "excellent communuication"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
+            className: "about-info-text info-list-item",
+            children: "organization"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
+            className: "about-info-text info-list-item",
+            children: "patience"
+          })]
         })]
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
@@ -721,33 +729,33 @@ module.exports = __webpack_require__.p + "df1304b5fb7597728605.jpg";
 
 /***/ }),
 
-/***/ "./src/images/blog_page/blue_green.avif":
+/***/ "./src/images/blog_page/blue_green.jpeg":
 /*!**********************************************!*\
-  !*** ./src/images/blog_page/blue_green.avif ***!
+  !*** ./src/images/blog_page/blue_green.jpeg ***!
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "801c51730d2ab47f4821.avif";
+module.exports = __webpack_require__.p + "8b483838054b2374f26e.jpeg";
 
 /***/ }),
 
-/***/ "./src/images/blog_page/mountain3.avif":
+/***/ "./src/images/blog_page/mountain3.jpeg":
 /*!*********************************************!*\
-  !*** ./src/images/blog_page/mountain3.avif ***!
+  !*** ./src/images/blog_page/mountain3.jpeg ***!
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "1f6d27eacaff451e4b72.avif";
+module.exports = __webpack_require__.p + "e65e0ce9df63678ce001.jpeg";
 
 /***/ }),
 
-/***/ "./src/images/blog_page/purple_triangle.avif":
+/***/ "./src/images/blog_page/purple_triangle.jpeg":
 /*!***************************************************!*\
-  !*** ./src/images/blog_page/purple_triangle.avif ***!
+  !*** ./src/images/blog_page/purple_triangle.jpeg ***!
   \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "a3bb36ae60f21454cb6e.avif";
+module.exports = __webpack_require__.p + "7ecdcf870260d7071550.jpeg";
 
 /***/ }),
 
