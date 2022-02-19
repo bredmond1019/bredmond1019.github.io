@@ -11,7 +11,7 @@ function Portfolio() {
       title: "Fala",
       description: "A Portuguese Vocab Review Application",
       image: Fala,
-      link: "",
+      link: "https://brandonredmond.com/Fala/",
     },
     {
       title: "Climbr",

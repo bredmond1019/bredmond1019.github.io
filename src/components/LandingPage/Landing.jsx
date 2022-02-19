@@ -20,7 +20,7 @@ export default function Landing() {
           </div>
         </div>
       </div>
-      <div id="about" className="about-wrapper">
+      <div id="about-section" className="about-wrapper">
         <TechStack />
         <Portfolio />
         <About />
