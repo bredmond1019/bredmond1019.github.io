@@ -679,7 +679,7 @@ function Portfolio() {
     title: "Fala",
     description: "A Portuguese Vocab Review Application",
     image: _images_Fala_png__WEBPACK_IMPORTED_MODULE_2__,
-    link: ""
+    link: "https://brandonredmond.com/Fala/"
   }, {
     title: "Climbr",
     description: "A Social Network for Climbr and Outdoor Enthusiasts",
