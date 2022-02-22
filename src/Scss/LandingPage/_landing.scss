@@ -2,8 +2,10 @@
 
 @use "contact_info";
 @use "about";
+@use "portfolio";
 @use "timeline";
 @use "tech_stack";
+@use "skills";
 
 .landing-wrapper {
   display: flex;

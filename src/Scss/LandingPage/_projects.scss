@@ -1,4 +1,4 @@
-@use "./variables" as var;
+@use "../variables" as var;
 
 .project-container {
   width: 100%;
@@ -90,7 +90,7 @@
     }
 
     .project-image-wrapper {
-      margin: 40px 0 40px 20px;
+      margin: 40px 20px;
     }
   }
   .project-title {

@@ -14,10 +14,10 @@ a:visited {
   display: flex;
   justify-content: center;
 
-  color: var.$green;
+  // color: var.$green;
+
   min-height: 100vh;
-  background: linear-gradient(var.$black-rgba, var.$black-rgba),
-    url(var.$geo-bkg);
+  background: linear-gradient(var.$black-rgba, var.$black-rgba), url(var.$geo-bkg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,7 +27,7 @@ a:visited {
 //
 
 .blog-main-title-wrapper {
-  font-family: "Architects Daughter", cursive;
+  font-family: var.$architect;
   font-weight: bold;
   color: var.$blue;
   text-align: center;
@@ -55,7 +55,7 @@ a:visited {
   display: flex;
   margin-bottom: 30px;
   padding: 20px 10px;
-  font-family: "Cuprum", sans-serif;
+  font-family: var.$viga;
   border-bottom: 1px solid var.$blue;
   border-left: 1px solid var.$blue;
 }
@@ -82,13 +82,16 @@ a:visited {
 //
 
 .blog-article-title {
-  font-family: "Cuprum", sans-serif;
+  // font-family: "Cuprum", sans-serif;
   text-transform: uppercase;
   font-size: 1rem;
+  color: white !important;
+  letter-spacing: 2px;
 }
 
 .blog-article-description {
   font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 
 .blog-info-wrapper {
@@ -107,6 +110,12 @@ a:visited {
 }
 
 @media screen and (min-width: 700px) {
+  .blog-main-title {
+    font-size: 3rem;
+  }
+  .blog-article-box-wrapper {
+    padding: 20px 20px;
+  }
   .blog-article-image-wrapper {
     display: unset;
     width: 150px;
@@ -133,16 +142,15 @@ a:visited {
 
     width: 200px;
     height: calc(100% - 30px);
-    background: linear-gradient(var.$blue-rgba, var.$blue-rgba),
-      url(var.$geo-bkg);
+    background: linear-gradient(var.$blue-rgba, var.$blue-rgba), url(var.$geo-bkg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .blog-article-box-wrapper {
-    border-left: unset;
+  .blog-main-title {
+    font-size: 4rem;
   }
   .blog-articles-wrapper {
     justify-content: space-around;

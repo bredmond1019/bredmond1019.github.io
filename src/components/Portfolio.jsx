@@ -12,12 +12,14 @@ function Portfolio() {
       description: "A Portuguese Vocab Review Application",
       image: Fala,
       link: "https://brandonredmond.com/Fala/",
+      github: "https://github.com/bredmond1019/Fala",
     },
     {
       title: "Climbr",
       description: "A Social Network for Climbr and Outdoor Enthusiasts",
       image: Climbr,
       link: "",
+      github: "https://github.com/bredmond1019/Portfolio/tree/main/Climbr",
     },
   ];
 

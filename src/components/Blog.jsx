@@ -14,20 +14,20 @@ function Blog() {
     {
       title: "Flask API Basics",
       image: blue_green,
-      link: "",
+      link: "https://dev.to/bredmond1019/getting-started-with-flask-7de",
       description: "React, GraphQL, Flask App -- Part 1",
     },
     {
       title: "Flask Application Factory",
       image: purple_triangle,
-      link: "",
+      link: "https://dev.to/bredmond1019/flask-application-factory-1j81",
       description: "React, GraphQL, Flask App -- Part 2",
     },
     {
       title: "Flask & GraphQL",
       image: mountain3,
       link: "",
-      description: "React, GraphQL, Flask App -- Part 3",
+      description: "React, GraphQL, Flask App -- Part 3 COMING SOON!",
     },
   ];
 
@@ -43,18 +43,12 @@ function Blog() {
               return (
                 <div className="blog-article-box-wrapper">
                   <div className="blog-article-image-wrapper">
-                    <img
-                      src={article.image}
-                      alt=""
-                      className="blog-article-image"
-                    />
+                    <img src={article.image} alt="" className="blog-article-image" />
                   </div>
                   <a className="blog-link" href={article.link}>
                     <div className="blog-info-wrapper">
                       <h1 className="blog-article-title">{article.title}</h1>
-                      <p className="blog-article-description">
-                        {article.description}
-                      </p>
+                      <p className="blog-article-description">{article.description}</p>
                     </div>
                   </a>
                 </div>

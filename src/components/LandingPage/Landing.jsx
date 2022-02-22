@@ -5,6 +5,7 @@ import About from "./About";
 import Timeline from "./Timeline";
 import TechStack from "./TechStack";
 import Portfolio from "../Portfolio";
+import Skills from "./Skills";
 
 export default function Landing() {
   return (
@@ -24,6 +25,7 @@ export default function Landing() {
         <TechStack />
         <Portfolio />
         <About />
+        <Skills />
         <Timeline />
       </div>
 

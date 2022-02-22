@@ -8,7 +8,10 @@
 
   padding: 85px 20px;
   border-bottom: 1px solid var.$blue;
-  background-color: black;
+  // background-color: black;
+  background: linear-gradient(var.$black-rgba, var.$black-rgba), url(var.$geo-bkg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: var.$cuprum;
 
   position: relative;
@@ -175,7 +178,7 @@
     }
     .tile-body {
       width: 300px;
-      padding-right: 20%;
+      padding-right: 40px;
       align-self: center;
       transform: translateX(-10%);
     }
