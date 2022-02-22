@@ -78,18 +78,18 @@ function Blog() {
   }, {
     title: "Flask API Basics",
     image: _images_blog_page_blue_green_jpeg__WEBPACK_IMPORTED_MODULE_1__,
-    link: "",
+    link: "https://dev.to/bredmond1019/getting-started-with-flask-7de",
     description: "React, GraphQL, Flask App -- Part 1"
   }, {
     title: "Flask Application Factory",
     image: _images_blog_page_purple_triangle_jpeg__WEBPACK_IMPORTED_MODULE_3__,
-    link: "",
+    link: "https://dev.to/bredmond1019/flask-application-factory-1j81",
     description: "React, GraphQL, Flask App -- Part 2"
   }, {
     title: "Flask & GraphQL",
     image: _images_blog_page_mountain3_jpeg__WEBPACK_IMPORTED_MODULE_2__,
     link: "",
-    description: "React, GraphQL, Flask App -- Part 3"
+    description: "React, GraphQL, Flask App -- Part 3 COMING SOON!"
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
     className: "blog-page-wrapper",
@@ -190,35 +190,9 @@ function About() {
           children: "I first started learning how to code while I was getting my Master's degree in Mathematics. Seeing the way the world was rapidly evolving, I knew that coding was going to be a crucial skill to have. After learning the basics and having completed my master's, I decided to speak with my principal and create a Computer Science Department in our school and become the full-time Computer Science Teacher. I taught students the fundamentals of development using Python, PyGame, and Python Turtle. Eventually I taught kids how to build basic web apps using HTML, CSS, and Flask."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
           className: "about-info-text",
-          children: "Teaching was an amazing job and I'm so happy to have spent as much time as I did teaching kids -- I'll never forget it. But deep down, I knew that I wasn't going to be in the classroom forever. I've learned a lot of valuable skills as a classroom teacher that I am excited to carry with me into my career as a software developer, including:"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ol", {
-          className: "about-info-text-list",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
-            className: "about-info-text info-list-item",
-            children: "problem solver"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
-            className: "about-info-text info-list-item",
-            children: "time management"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
-            className: "about-info-text info-list-item",
-            children: "interpersonal relationships"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
-            className: "about-info-text info-list-item",
-            children: "Adaptable in a fast paced environment"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
-            className: "about-info-text info-list-item",
-            children: "excellent communuication"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
-            className: "about-info-text info-list-item",
-            children: "organization"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("ul", {
-            className: "about-info-text info-list-item",
-            children: "patience"
-          })]
+          children: "Teaching was an amazing job and I'm so happy to have spent as much time as I did teaching kids -- I'll never forget it. But deep down, I knew that I wasn't going to be in the classroom forever. I've learned a lot of valuable skills as a classroom teacher that I am excited to carry with me into my career as a software developer."
         })]
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "about-info"
     })]
   });
 }
@@ -329,7 +303,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Timeline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Timeline */ "./src/components/LandingPage/Timeline.jsx");
 /* harmony import */ var _TechStack__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TechStack */ "./src/components/LandingPage/TechStack.jsx");
 /* harmony import */ var _Portfolio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Portfolio */ "./src/components/Portfolio.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Skills__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Skills */ "./src/components/LandingPage/Skills.jsx");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -339,36 +315,78 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Landing() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
       id: "home",
       className: "landing-wrapper",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
         className: "landing-page",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h1", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h1", {
           className: "landing-title",
           children: "Brandon Redmond"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
           className: "landing-subtitle-wrapper",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h2", {
             className: "landing-subtitle ",
             children: "Software Developer."
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h2", {
             className: "landing-subtitle ",
             children: "Language Enthusiast."
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h2", {
             className: "landing-subtitle ",
             children: "Dog Lover."
           })]
         })]
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
       id: "about-section",
       className: "about-wrapper",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_TechStack__WEBPACK_IMPORTED_MODULE_4__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Portfolio__WEBPACK_IMPORTED_MODULE_5__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_About__WEBPACK_IMPORTED_MODULE_2__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Timeline__WEBPACK_IMPORTED_MODULE_3__.default, {})]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})]
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_TechStack__WEBPACK_IMPORTED_MODULE_4__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Portfolio__WEBPACK_IMPORTED_MODULE_5__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_About__WEBPACK_IMPORTED_MODULE_2__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Skills__WEBPACK_IMPORTED_MODULE_6__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Timeline__WEBPACK_IMPORTED_MODULE_3__.default, {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})]
   });
 }
+
+/***/ }),
+
+/***/ "./src/components/LandingPage/Skills.jsx":
+/*!***********************************************!*\
+  !*** ./src/components/LandingPage/Skills.jsx ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function Skills() {
+  var skills = ["problem solver", "time management", "interpersonal relationships", "Adaptable in a fast paced environment", "excellent communuication", "organization", "planning"];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    className: "skills-container",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "skills-title-wrapper",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+        className: "skills-title",
+        children: "Skills"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "skills-list",
+      children: skills.map(function (skill, i) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
+          className: "skill-item",
+          children: skill
+        }, i);
+      })
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Skills);
 
 /***/ }),
 
@@ -679,12 +697,14 @@ function Portfolio() {
     title: "Fala",
     description: "A Portuguese Vocab Review Application",
     image: _images_Fala_png__WEBPACK_IMPORTED_MODULE_2__,
-    link: "https://brandonredmond.com/Fala/"
+    link: "https://brandonredmond.com/Fala/",
+    github: "https://github.com/bredmond1019/Fala"
   }, {
     title: "Climbr",
     description: "A Social Network for Climbr and Outdoor Enthusiasts",
     image: _images_Climbr_png__WEBPACK_IMPORTED_MODULE_3__,
-    link: ""
+    link: "",
+    github: "https://github.com/bredmond1019/Portfolio/tree/main/Climbr"
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
     id: "portfolio",
@@ -729,10 +749,14 @@ function Projects(_ref) {
     className: "project-container",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "project-image-wrapper",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-        src: project.image,
-        alt: "",
-        className: "project-image"
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+        href: project.link,
+        className: "image-link",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+          src: project.image,
+          alt: "",
+          className: "project-image"
+        })
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "project-info-wrapper",
@@ -743,7 +767,7 @@ function Projects(_ref) {
         className: "project-info",
         children: project.description
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-        href: project.link,
+        href: project.github,
         className: "project-link",
         children: "Check it out on Github"
       })]
