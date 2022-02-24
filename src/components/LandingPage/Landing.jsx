@@ -25,7 +25,6 @@ export default function Landing() {
         <TechStack />
         <Portfolio />
         <About />
-        <Skills />
         <Timeline />
       </div>
 
