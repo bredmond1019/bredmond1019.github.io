@@ -92,6 +92,7 @@ function Blog() {
     description: "React, GraphQL, Flask App -- Part 3 COMING SOON!"
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+    id: "blog",
     className: "blog-page-wrapper",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "blog-main-page",
@@ -184,13 +185,13 @@ function About() {
           children: "Hello, my name is Brandon Redmond and welcome to my blog! I am a Full Stack Software Developer based out of New York City."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
           className: "about-info-text",
-          children: "I am a web developer with a passion for learning and teaching. I used to teach high school Computer Science and Mathematics for about 6 years, until the end of 2020 when I decided to make a change and persue a career as a Full Stack Web Developer."
+          children: "I am a web developer with a passion for learning and teaching. I have a Master's Degree in Mathematics and I taught high school Computer Science and Mathematics in NYC for about 6 years. Near the end of 2020, I decided to make a change and persue a career as a Full Stack Web Developer."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
           className: "about-info-text",
-          children: "I first started learning how to code while I was getting my Master's degree in Mathematics. Seeing the way the world was rapidly evolving, I knew that coding was going to be a crucial skill to have. After learning the basics and having completed my master's, I decided to speak with my principal and create a Computer Science Department in our school and become the full-time Computer Science Teacher. I taught students the fundamentals of development using Python, PyGame, and Python Turtle. Eventually I taught kids how to build basic web apps using HTML, CSS, and Flask."
+          children: "When I'm not coding or developing web apps, you can find me somewhere outdoors with my pup. I'll most likely be out rock climbing with some friends or at the park playing ball with Bella. I also love to learn languages. Tanti anni fa, ho imparato da solo a parlare italiano. Al\xE9m disso, mais recentemente, aprendi a falar portugu\xEAs! I make good use of these languages by making sure I get to travel and meet new people from all different cultures. And lastly, if I'm not out doing one of the above, I'm probably at home playing my PS5 or reading a good science fiction book."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-          className: "about-info-text",
-          children: "Teaching was an amazing job and I'm so happy to have spent as much time as I did teaching kids -- I'll never forget it. But deep down, I knew that I wasn't going to be in the classroom forever. I've learned a lot of valuable skills as a classroom teacher that I am excited to carry with me into my career as a software developer."
+          className: "about-info-text about-info-outro",
+          children: "Feel free to connect with me on social media or send me an email!"
         })]
       })]
     })]
@@ -198,6 +199,76 @@ function About() {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
+{
+  /* <p className="about-info-text">
+            I first started learning how to code while I was getting my Master's degree in
+            Mathematics. Seeing the way the world was rapidly evolving, I knew that coding was going
+            to be a crucial skill to have. After learning the basics and having completed my
+            master's, I decided to speak with my principal and create a Computer Science Department
+            in our school and become the full-time Computer Science Teacher. I taught students the
+            fundamentals of development using Python, PyGame, and Python Turtle. Eventually I taught
+            kids how to build basic web apps using HTML, CSS, and Flask.
+          </p> 
+  <p className="about-info-text">
+  Teaching was an amazing job and I'm so happy to have spent as much time as I did
+  teaching kids -- I'll never forget it. But deep down, I knew that I wasn't going to be
+  in the classroom forever. I've learned a lot of valuable skills as a classroom teacher
+  that I am excited to carry with me into my career as a software developer.
+  </p> */
+}
+
+/***/ }),
+
+/***/ "./src/components/LandingPage/Connect.jsx":
+/*!************************************************!*\
+  !*** ./src/components/LandingPage/Connect.jsx ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Contact_Info__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact_Info */ "./src/components/LandingPage/Contact_Info.jsx");
+/* harmony import */ var _images_contact_info_profile_pic_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../images/contact_info/profile_pic.png */ "./src/images/contact_info/profile_pic.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+function Connect() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+    id: "connect",
+    className: "contact-info-wrapper",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "side-bar-nav",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "contact-title-wrapper",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+        className: "contact-title",
+        children: "Get In Touch"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+        className: "contact-title-subtext",
+        children: "Take a look at my git hub Or Find me on Social Media"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+        className: "contact-title-subtext"
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "profile-pic-wrapper",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+        src: _images_contact_info_profile_pic_png__WEBPACK_IMPORTED_MODULE_2__,
+        alt: "",
+        className: "profile-pic"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Connect);
 
 /***/ }),
 
@@ -226,60 +297,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 function Contact_Info() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-    className: "contact-info-wrapper",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-      className: "contact-title-wrapper",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h2", {
-        className: "contact-title",
-        children: "Get In Touch"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h5", {
-        className: "contact-title-subtext",
-        children: "Take a look at my git hub Or Find me on Social Media"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h5", {
-        className: "contact-title-subtext"
-      })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
-      className: "profile-pic-wrapper",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
-        src: _images_contact_info_profile_pic_png__WEBPACK_IMPORTED_MODULE_1__,
-        alt: "",
-        className: "profile-pic"
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
-      className: "info-icons",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("a", {
-        href: "https://github.com/bredmond1019",
+  var contact_info = [{
+    link: "https://github.com/bredmond1019",
+    icon: _images_contact_info_github_svg__WEBPACK_IMPORTED_MODULE_2__
+  }, {
+    link: "https://www.linkedin.com/in/bredmond1019/",
+    icon: _images_contact_info_linkedin_svg__WEBPACK_IMPORTED_MODULE_3__
+  }, {
+    link: "https://www.instagram.com/urbanlumberjack19/",
+    icon: _images_contact_info_insta_svg__WEBPACK_IMPORTED_MODULE_4__
+  }, {
+    link: "mailto:bredmond1019@gmail.com",
+    icon: _images_contact_info_email_svg__WEBPACK_IMPORTED_MODULE_5__
+  }];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+    className: "info-icons",
+    children: contact_info.map(function (contact, i) {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("a", {
+        href: contact.link,
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
-          src: _images_contact_info_github_svg__WEBPACK_IMPORTED_MODULE_2__,
+          src: contact.icon,
           alt: "",
           className: "info-icon"
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("a", {
-        href: "https://www.linkedin.com/in/bredmond1019/",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
-          src: _images_contact_info_linkedin_svg__WEBPACK_IMPORTED_MODULE_3__,
-          alt: "",
-          className: "info-icon"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("a", {
-        href: "https://www.instagram.com/urbanlumberjack19/",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
-          src: _images_contact_info_insta_svg__WEBPACK_IMPORTED_MODULE_4__,
-          alt: "",
-          className: "info-icon"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("a", {
-        href: "mailto:bredmond1019@gmail.com",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
-          src: _images_contact_info_email_svg__WEBPACK_IMPORTED_MODULE_5__,
-          alt: "",
-          className: "info-icon"
-        })
-      })]
-    })]
+      }, i);
+    })
   });
 }
 
@@ -298,7 +341,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ Landing)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Contact_Info__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact_Info */ "./src/components/LandingPage/Contact_Info.jsx");
+/* harmony import */ var _Connect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Connect */ "./src/components/LandingPage/Connect.jsx");
 /* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./About */ "./src/components/LandingPage/About.jsx");
 /* harmony import */ var _Timeline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Timeline */ "./src/components/LandingPage/Timeline.jsx");
 /* harmony import */ var _TechStack__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TechStack */ "./src/components/LandingPage/TechStack.jsx");
@@ -331,7 +374,7 @@ function Landing() {
             children: "Software Developer."
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h2", {
             className: "landing-subtitle ",
-            children: "Language Enthusiast."
+            children: "Rock Climber."
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h2", {
             className: "landing-subtitle ",
             children: "Dog Lover."
@@ -342,7 +385,7 @@ function Landing() {
       id: "about-section",
       className: "about-wrapper",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_TechStack__WEBPACK_IMPORTED_MODULE_4__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Portfolio__WEBPACK_IMPORTED_MODULE_5__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_About__WEBPACK_IMPORTED_MODULE_2__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Timeline__WEBPACK_IMPORTED_MODULE_3__.default, {})]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Contact_Info__WEBPACK_IMPORTED_MODULE_1__.default, {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Connect__WEBPACK_IMPORTED_MODULE_1__.default, {})]
   });
 }
 
@@ -657,6 +700,10 @@ var Navigation = function Navigation(props) {
                 as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
                 to: "/blog",
                 children: "Blog"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default.Link, {
+                as: react_router_hash_link__WEBPACK_IMPORTED_MODULE_7__.NavHashLink,
+                to: "/#connect",
+                children: "Connect"
               })]
             })]
           })]
