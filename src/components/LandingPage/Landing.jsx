@@ -1,6 +1,6 @@
 import React from "react";
 
-import Contact_Info from "./Contact_Info";
+import Connect from "./Connect";
 import About from "./About";
 import Timeline from "./Timeline";
 import TechStack from "./TechStack";
@@ -16,7 +16,7 @@ export default function Landing() {
 
           <div className="landing-subtitle-wrapper">
             <h2 className="landing-subtitle ">Software Developer.</h2>
-            <h2 className="landing-subtitle ">Language Enthusiast.</h2>
+            <h2 className="landing-subtitle ">Rock Climber.</h2>
             <h2 className="landing-subtitle ">Dog Lover.</h2>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function Landing() {
         <Timeline />
       </div>
 
-      <Contact_Info />
+      <Connect />
     </div>
   );
 }

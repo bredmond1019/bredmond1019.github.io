@@ -36,6 +36,9 @@ const Navigation = (props) => {
                 <Nav.Link as={NavHashLink} to="/blog">
                   Blog
                 </Nav.Link>
+                <Nav.Link as={NavHashLink} to="/#connect">
+                  Connect
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -56,3 +56,37 @@
   max-height: 30px;
   width: 30px;
 }
+
+.side-bar-nav {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .side-bar-nav {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    margin: 0 0 0 5px;
+    top: 40%;
+    left: 0;
+
+    .info-icons {
+      flex-direction: column;
+      width: 50px;
+      height: 200px;
+
+      padding: 5px;
+    }
+
+    .info-icon {
+      border: solid white 2px;
+      background-color: white;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .info-icon:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 11px 3px var.$gold;
+    }
+  }
+}

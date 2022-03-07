@@ -32,7 +32,7 @@ function Blog() {
   ];
 
   return (
-    <div className="blog-page-wrapper">
+    <div id="blog" className="blog-page-wrapper">
       <div className="blog-main-page">
         <div className="blog-main-title-wrapper">
           <h1 className="blog-main-title">Welcome to my blog</h1>
