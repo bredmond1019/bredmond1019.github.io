@@ -744,7 +744,7 @@ function Portfolio() {
     title: "Fala",
     description: "A Portuguese Vocab Review Application",
     image: _images_Fala_png__WEBPACK_IMPORTED_MODULE_2__,
-    link: "https://brandonredmond.com/Fala/",
+    link: "",
     github: "https://github.com/bredmond1019/Fala"
   }, {
     title: "Climbr",
