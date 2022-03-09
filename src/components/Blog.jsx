@@ -26,8 +26,8 @@ function Blog() {
     {
       title: "Flask & GraphQL",
       image: mountain3,
-      link: "",
-      description: "React, GraphQL, Flask App -- Part 3 COMING SOON!",
+      link: "https://dev.to/bredmond1019/building-models-in-flask-and-graphql-30an",
+      description: "React, GraphQL, Flask App -- Part 3",
     },
   ];
 

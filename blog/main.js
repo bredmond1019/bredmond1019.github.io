@@ -88,8 +88,8 @@ function Blog() {
   }, {
     title: "Flask & GraphQL",
     image: _images_blog_page_mountain3_jpeg__WEBPACK_IMPORTED_MODULE_2__,
-    link: "",
-    description: "React, GraphQL, Flask App -- Part 3 COMING SOON!"
+    link: "https://dev.to/bredmond1019/building-models-in-flask-and-graphql-30an",
+    description: "React, GraphQL, Flask App -- Part 3"
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
     id: "blog",
@@ -283,13 +283,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _images_contact_info_profile_pic_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../images/contact_info/profile_pic.png */ "./src/images/contact_info/profile_pic.png");
-/* harmony import */ var _images_contact_info_github_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../images/contact_info/github.svg */ "./src/images/contact_info/github.svg");
-/* harmony import */ var _images_contact_info_linkedin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../images/contact_info/linkedin.svg */ "./src/images/contact_info/linkedin.svg");
-/* harmony import */ var _images_contact_info_insta_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../images/contact_info/insta.svg */ "./src/images/contact_info/insta.svg");
-/* harmony import */ var _images_contact_info_email_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../images/contact_info/email.svg */ "./src/images/contact_info/email.svg");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
+/* harmony import */ var _images_contact_info_github_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../images/contact_info/github.svg */ "./src/images/contact_info/github.svg");
+/* harmony import */ var _images_contact_info_linkedin_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../images/contact_info/linkedin.svg */ "./src/images/contact_info/linkedin.svg");
+/* harmony import */ var _images_contact_info_insta_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../images/contact_info/insta.svg */ "./src/images/contact_info/insta.svg");
+/* harmony import */ var _images_contact_info_email_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../images/contact_info/email.svg */ "./src/images/contact_info/email.svg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -300,23 +298,23 @@ __webpack_require__.r(__webpack_exports__);
 function Contact_Info() {
   var contact_info = [{
     link: "https://github.com/bredmond1019",
-    icon: _images_contact_info_github_svg__WEBPACK_IMPORTED_MODULE_2__
+    icon: _images_contact_info_github_svg__WEBPACK_IMPORTED_MODULE_1__
   }, {
     link: "https://www.linkedin.com/in/bredmond1019/",
-    icon: _images_contact_info_linkedin_svg__WEBPACK_IMPORTED_MODULE_3__
+    icon: _images_contact_info_linkedin_svg__WEBPACK_IMPORTED_MODULE_2__
   }, {
     link: "https://www.instagram.com/urbanlumberjack19/",
-    icon: _images_contact_info_insta_svg__WEBPACK_IMPORTED_MODULE_4__
+    icon: _images_contact_info_insta_svg__WEBPACK_IMPORTED_MODULE_3__
   }, {
     link: "mailto:bredmond1019@gmail.com",
-    icon: _images_contact_info_email_svg__WEBPACK_IMPORTED_MODULE_5__
+    icon: _images_contact_info_email_svg__WEBPACK_IMPORTED_MODULE_4__
   }];
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
     className: "info-icons",
     children: contact_info.map(function (contact, i) {
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("a", {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
         href: contact.link,
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
           src: contact.icon,
           alt: "",
           className: "info-icon"
@@ -744,7 +742,7 @@ function Portfolio() {
     title: "Fala",
     description: "A Portuguese Vocab Review Application",
     image: _images_Fala_png__WEBPACK_IMPORTED_MODULE_2__,
-    link: "https://brandonredmond.com/Fala/",
+    link: "",
     github: "https://github.com/bredmond1019/Fala"
   }, {
     title: "Climbr",

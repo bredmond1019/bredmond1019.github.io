@@ -11,7 +11,7 @@ function Portfolio() {
       title: "Fala",
       description: "A Portuguese Vocab Review Application",
       image: Fala,
-      link: "https://brandonredmond.com/Fala/",
+      link: "",
       github: "https://github.com/bredmond1019/Fala",
     },
     {
