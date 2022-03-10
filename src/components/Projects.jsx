@@ -4,7 +4,7 @@ function Projects({ project }) {
   return (
     <div className="project-container">
       <div className="project-image-wrapper">
-        <a href={project.link} className="image-link">
+        <a href={project.github} className="image-link">
           <img src={project.image} alt="" className="project-image" />
         </a>
       </div>
