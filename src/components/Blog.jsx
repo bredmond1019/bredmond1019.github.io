@@ -45,7 +45,12 @@ function Blog() {
                   <div className="blog-article-image-wrapper">
                     <img src={article.image} alt="" className="blog-article-image" />
                   </div>
-                  <a className="blog-link" href={article.link}>
+                  <a
+                    className="blog-link"
+                    href={article.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="blog-info-wrapper">
                       <h1 className="blog-article-title">{article.title}</h1>
                       <p className="blog-article-description">{article.description}</p>

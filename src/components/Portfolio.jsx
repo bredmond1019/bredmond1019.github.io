@@ -3,7 +3,7 @@ import React from "react";
 import Projects from "./Projects";
 
 import Fala from "./../images/Fala.png";
-import Climbr from "./../images/Climbr.png";
+import Climbr from "./../images/Climbr3.png";
 
 function Portfolio() {
   let projectsList = [
