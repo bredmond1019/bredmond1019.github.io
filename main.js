@@ -119,6 +119,8 @@ function Blog() {
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
                 className: "blog-link",
                 href: article.link,
+                target: "_blank",
+                rel: "noopener noreferrer",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                   className: "blog-info-wrapper",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
@@ -447,7 +449,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_tech_stack_Flask_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../images/tech_stack/Flask.svg */ "./src/images/tech_stack/Flask.svg");
 /* harmony import */ var _images_tech_stack_React_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../images/tech_stack/React.svg */ "./src/images/tech_stack/React.svg");
 /* harmony import */ var _images_tech_stack_GraphQL_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../images/tech_stack/GraphQL.svg */ "./src/images/tech_stack/GraphQL.svg");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _images_tech_stack_PostgreSQL_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../../images/tech_stack/PostgreSQL.svg */ "./src/images/tech_stack/PostgreSQL.svg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -473,32 +477,35 @@ function TechStack() {
   }, {
     name: "javascript",
     image: _images_tech_stack_JS_svg__WEBPACK_IMPORTED_MODULE_2__
+  }, {
+    name: "postgres",
+    image: _images_tech_stack_PostgreSQL_svg__WEBPACK_IMPORTED_MODULE_6__
   }];
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
     className: "tech-stack",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
       className: "tech-stack-header",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h1", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h1", {
         className: "tech-stack-title",
         children: "My Tech Stack"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h4", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h4", {
         className: "tech-stack-subtitle",
         children: "These are the technologies I use most often"
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
       className: "icon-wrapper",
       children: techStack.map(function (skill, i) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
           className: "".concat(skill.name, " icon-container"),
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
             className: "icon-title-wrapper",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("h3", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h3", {
               className: "icon-title",
               children: skill.name
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
             className: "icon-img-container",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
               src: skill.image,
               className: "".concat(skill.name, "-img icon-img"),
               alt: ""
@@ -728,7 +735,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Projects */ "./src/components/Projects.jsx");
 /* harmony import */ var _images_Fala_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/Fala.png */ "./src/images/Fala.png");
-/* harmony import */ var _images_Climbr_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/Climbr.png */ "./src/images/Climbr.png");
+/* harmony import */ var _images_Climbr3_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/Climbr3.png */ "./src/images/Climbr3.png");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -747,7 +754,7 @@ function Portfolio() {
   }, {
     title: "Climbr",
     description: "A Social Network for Climbr and Outdoor Enthusiasts",
-    image: _images_Climbr_png__WEBPACK_IMPORTED_MODULE_3__,
+    image: _images_Climbr3_png__WEBPACK_IMPORTED_MODULE_3__,
     link: "",
     github: "https://github.com/bredmond1019/Portfolio/tree/main/Climbr"
   }];
@@ -797,6 +804,8 @@ function Projects(_ref) {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
         href: project.github,
         className: "image-link",
+        target: "_blank",
+        rel: "noopener noreferrer",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
           src: project.image,
           alt: "",
@@ -814,6 +823,8 @@ function Projects(_ref) {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
         href: project.github,
         className: "project-link",
+        target: "_blank",
+        rel: "noopener noreferrer",
         children: "Check it out on Github"
       })]
     })]
@@ -869,13 +880,13 @@ module.exports = __webpack_require__.p + "df1304b5fb7597728605.jpg";
 
 /***/ }),
 
-/***/ "./src/images/Climbr.png":
-/*!*******************************!*\
-  !*** ./src/images/Climbr.png ***!
-  \*******************************/
+/***/ "./src/images/Climbr3.png":
+/*!********************************!*\
+  !*** ./src/images/Climbr3.png ***!
+  \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "24ba404d814773927080.png";
+module.exports = __webpack_require__.p + "a47aad0d2bdb285d7b57.png";
 
 /***/ }),
 
@@ -1006,6 +1017,16 @@ module.exports = __webpack_require__.p + "61116f4fcb1318abddc3.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "ffcf56dc5498f7bbbec8.svg";
+
+/***/ }),
+
+/***/ "./src/images/tech_stack/PostgreSQL.svg":
+/*!**********************************************!*\
+  !*** ./src/images/tech_stack/PostgreSQL.svg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "b941b412ac48a886e83c.svg";
 
 /***/ }),
 
